@@ -11,6 +11,11 @@ body {
   background-color: #24252a;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 nav {
   order: 1;
 }
@@ -19,16 +24,16 @@ nav {
   list-style: none;
 }
 
-.nav-links li {
+.nav-links menu {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.nav-links li a {
+.nav-links menu a {
   transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover {
+.nav-links menu a:hover {
   color: #0088a9;
 }
 
@@ -48,9 +53,83 @@ a {
   color: #edf0f1;
 }
 
-
 /* RIGHT MENU */
 .rm {
+  display: flex;
   cursor: pointer;
   /* margin-left: auto; */
+}
+
+.heil-gitler {
+  width: 1348.5px;
+  height: 84.6vh;
+}
+
+.nazi {
+  opacity: 30%;
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  transition: 0.3sf;
+}
+
+.nazi:hover {
+  transition: 0.5s;
+  opacity: 100%;
+}
+
+/* ANOTHER SHIT */
+
+.ai-hover-h1 {
+  color: #edf0f1;
+  font-size: 50px;
+  text-align: center;
+  transition: 0.7s;
+  cursor: help;
+}
+
+.ai-hover-h1:hover {
+  color: rgb(79, 152, 230);
+  font-size: 53px;
+  transition: 0.5s;
+}
+
+.ai-main {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ai-img {
+  width: 100vh;
+  transition: 0.3s;
+}
+
+.ai-img:hover {
+  width: 90vh;
+  transition: 0.5s;
+}
+
+.ai-img1 {
+  width: 88vh;
+  transition: 0.3s;
+}
+
+.ai-img1:hover {
+  width: 80vh;
+  transition: 0.5s;
+}
+
+header {
+  background: url(../home/ai-3.jpeg);
+  opacity: 30%;
+}
+
+.ai-title {
+  color: #edf0f1;
+  opacity: 100%;
+}
+
+.ai-center {
+  text-align: center;
 }
